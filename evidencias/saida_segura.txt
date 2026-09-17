@@ -1,0 +1,24 @@
+===== EXECUCAO 1 =====
+[*] Saldo Inicial:   0
+[*] Saldo Esperado:  200000
+[*] Saldo Obtido:    200000
+[*] Tempo de Execucao: 0.4347 s
+
+[OK] Resultado integro. Exclusao mutua garantida pelo Mutex.
+
+===== EXECUCAO 2 =====
+[*] Saldo Inicial:   0
+[*] Saldo Esperado:  200000
+[*] Saldo Obtido:    200000
+[*] Tempo de Execucao: 0.4606 s
+
+[OK] Resultado integro. Exclusao mutua garantida pelo Mutex.
+
+===== EXECUCAO 3 =====
+[*] Saldo Inicial:   0
+[*] Saldo Esperado:  200000
+[*] Saldo Obtido:    200000
+[*] Tempo de Execucao: 1.0361 s
+
+[OK] Resultado integro. Exclusao mutua garantida pelo Mutex.
+

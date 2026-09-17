@@ -1,0 +1,16 @@
+[*] Operacoes por thread: 50000 | Threads: 2
+
+--- SEM LOCK (secao critica desprotegida) ---
+[*] Saldo Esperado:  100000
+[!] Saldo Obtido:    50000
+[*] Operacoes perdidas: 50000
+[*] Tempo de Execucao:  24.0381 s
+[ALERTA] Condicao de Corrida detectada! Houve perda de dados.
+
+--- COM LOCK (exclusao mutua) ---
+[*] Saldo Esperado:  100000
+[!] Saldo Obtido:    100000
+[*] Operacoes perdidas: 0
+[*] Tempo de Execucao:  32.2996 s
+[OK] Resultado integro.
+

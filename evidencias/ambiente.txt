@@ -1,0 +1,7 @@
+Data......: 17/09/2026 23:21:31
+Sistema...: Ubuntu 26.04 LTS
+Kernel....: 7.0.0-30-generic
+Arquitet..: x86_64
+CPUs......: 1
+Python....: Python 3.14.4
+Hostname..: ubuntu

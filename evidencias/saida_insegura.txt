@@ -1,0 +1,27 @@
+===== EXECUCAO 1 =====
+[*] Saldo Inicial:   0
+[*] Saldo Esperado:  200000
+[!] Saldo Obtido:    200000
+[*] Perda de dados:  0 operacoes perdidas
+[*] Tempo de Execucao: 0.1253 s
+
+[OK] Resultado integro.
+
+===== EXECUCAO 2 =====
+[*] Saldo Inicial:   0
+[*] Saldo Esperado:  200000
+[!] Saldo Obtido:    200000
+[*] Perda de dados:  0 operacoes perdidas
+[*] Tempo de Execucao: 0.1363 s
+
+[OK] Resultado integro.
+
+===== EXECUCAO 3 =====
+[*] Saldo Inicial:   0
+[*] Saldo Esperado:  200000
+[!] Saldo Obtido:    200000
+[*] Perda de dados:  0 operacoes perdidas
+[*] Tempo de Execucao: 0.1161 s
+
+[OK] Resultado integro.
+

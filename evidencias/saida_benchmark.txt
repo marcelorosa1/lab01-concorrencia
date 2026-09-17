@@ -1,0 +1,18 @@
+[*] 5 repeticoes | 100000 operacoes por thread | 2 threads
+
+  SEM LOCK | rodada 1: 0.1136 s | saldo = 200000
+  SEM LOCK | rodada 2: 0.1229 s | saldo = 200000
+  SEM LOCK | rodada 3: 0.1276 s | saldo = 200000
+  SEM LOCK | rodada 4: 0.1293 s | saldo = 200000
+  SEM LOCK | rodada 5: 0.1108 s | saldo = 200000
+  SEM LOCK | MEDIA: 0.1208 s
+
+  COM LOCK | rodada 1: 0.1705 s | saldo = 200000
+  COM LOCK | rodada 2: 0.3365 s | saldo = 200000
+  COM LOCK | rodada 3: 0.2208 s | saldo = 200000
+  COM LOCK | rodada 4: 0.2563 s | saldo = 200000
+  COM LOCK | rodada 5: 0.2167 s | saldo = 200000
+  COM LOCK | MEDIA: 0.2401 s
+
+[*] Overhead do Mutex: 1.99x mais lento (+119.3 ms em 200000 operacoes)
+[*] Custo medio por aquisicao/liberacao de lock: 0.597 microssegundos

@@ -1,0 +1,27 @@
+===== EXECUCAO 1 =====
+[*] Saldo Inicial:   0
+[*] Threads:         Thread-Deposito-1, Thread-Deposito-2, Thread-Saque-1
+[*] Saldo Esperado:  100000
+[*] Saldo Obtido:    100000
+[*] Tempo de Execucao: 1.2886 s
+
+[OK] Resultado integro mesmo com 3 threads concorrentes.
+
+===== EXECUCAO 2 =====
+[*] Saldo Inicial:   0
+[*] Threads:         Thread-Deposito-1, Thread-Deposito-2, Thread-Saque-1
+[*] Saldo Esperado:  100000
+[*] Saldo Obtido:    100000
+[*] Tempo de Execucao: 1.0891 s
+
+[OK] Resultado integro mesmo com 3 threads concorrentes.
+
+===== EXECUCAO 3 =====
+[*] Saldo Inicial:   0
+[*] Threads:         Thread-Deposito-1, Thread-Deposito-2, Thread-Saque-1
+[*] Saldo Esperado:  100000
+[*] Saldo Obtido:    100000
+[*] Tempo de Execucao: 1.0727 s
+
+[OK] Resultado integro mesmo com 3 threads concorrentes.
+

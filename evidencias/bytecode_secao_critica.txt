@@ -1,0 +1,16 @@
+Python 3.14.4
+
+  1           RESUME                   0
+
+  3           LOAD_GLOBAL              0 (saldo_conta)
+              STORE_FAST               0 (temp)
+
+  4           LOAD_FAST_BORROW         0 (temp)
+              LOAD_SMALL_INT           1
+              BINARY_OP                0 (+)
+              STORE_FAST               0 (temp)
+
+  5           LOAD_FAST_BORROW         0 (temp)
+              STORE_GLOBAL             0 (saldo_conta)
+              LOAD_CONST               1 (None)
+              RETURN_VALUE
