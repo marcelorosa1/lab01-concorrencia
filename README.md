@@ -3,7 +3,7 @@
 **Disciplina:** Sistemas Operacionais (2026.2) — 4º Semestre, ADS / UNIFADESA
 **Docente:** Prof. Esp. Rodrigo Martins Sousa
 **Avaliação:** 1,0 ponto na N1 — Entrega até 01/10/2026
-**Aluno(a):** _preencher_
+**Aluno(a):** Marcelo Rosa
 
 ---
 
@@ -325,5 +325,38 @@ menor preço possível por essa garantia.
 ## 9. Evidências
 
 As saídas completas de todas as execuções, geradas dentro da máquina virtual, estão em
-[`evidencias/`](evidencias/).
-_Anexar aqui também as capturas de tela do terminal da VM._
+[`evidencias/`](evidencias/). As capturas de tela abaixo foram tiradas diretamente do **console da
+máquina virtual** (`tty1` do Ubuntu 26.04 rodando no VirtualBox), mostrando os comandos e suas
+saídas reais.
+
+### Ambiente e Parte 1 — condição de corrida
+
+![Ambiente de execução e Parte 1](evidencias/prints/01_ambiente_e_parte1.png)
+
+Confirma o ambiente (Ubuntu 26.04 LTS, kernel 7.0.0-30-generic, 1 CPU, Python 3.14.4) e as
+execuções do script sem proteção.
+
+### Parte 2 — exclusão mútua com Mutex
+
+![Parte 2 com mutex](evidencias/prints/02_parte2_mutex.png)
+
+### Desafio extra — 3 threads (2 depósitos + 1 saque)
+
+![Desafio com 3 threads](evidencias/prints/03_desafio_3_threads.png)
+
+### Condição de corrida evidente — sem lock x com lock
+
+![Race condition evidente](evidencias/prints/04_race_condition_evidente.png)
+
+**Esta é a evidência central do laboratório:** sem o lock, 50.000 das 100.000 operações foram
+perdidas; com o lock, nenhuma.
+
+### Benchmark — overhead do Mutex
+
+![Benchmark do overhead](evidencias/prints/05_benchmark_overhead.png)
+
+### Bytecode — prova da não-atomicidade
+
+![Bytecode da seção crítica](evidencias/prints/06_bytecode_secao_critica.png)
+
+As oito instruções de bytecode que o interpretador gera para as três linhas da seção crítica.
